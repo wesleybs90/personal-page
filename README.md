@@ -1,2 +1,2 @@
 # personal-page
-Personal page with NodeJS and Express.
+Personal page with NodeJS and Express for backend.
