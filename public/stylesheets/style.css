@@ -1,8 +1,60 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;;
+}
+
+main{
+  width: 100vh;
+}
+
+.container-top {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(28, 29, 39);
+  overflow: hidden;
+}
+
+h1 {
+  font-family: Jost, Roboto, sans-serif;
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: -20px;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  width: 500px;
+  margin: auto;
+}
+
+span {
+  font-weight: 300;
+}
+
+.container-bottom {
+  position: relative;
+  width: 100vw;
+  background-color: white;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 20px 30px;
 }
 
 a {
-  color: #00B7FF;
+  color: rgb(28, 29, 39);
+}
+
+a:hover {
+  color: rgb(82, 82, 82)
 }
